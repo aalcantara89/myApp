@@ -1,0 +1,42 @@
+
+.cv-display-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cv-display-content h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.cv-display-content h4 {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.cv-display-content p, h3 {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.cv-display-content h3 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#responsibilites-p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#heading-hr {
+    border-top: 3px solid #000000;
+}
+
+.cv-display-content hr {
+    border-top: 1px solid #515050;
+}

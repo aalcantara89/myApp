@@ -1,0 +1,135 @@
+body{
+  background-image: url('https://as2.ftcdn.net/v2/jpg/08/38/22/25/1000_F_838222585_UvT1lNZGT76VfTkskBC1uEWJMMS12YWP.jpg');
+  background-size: cover;
+}
+.container {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: 2fr 3fr;
+  height: 100vh;
+  margin: 20px;
+  padding: 10px;
+}
+
+.cv-input-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 10px;
+}
+
+.general-info-content,
+.cv-display-container {
+  background-color: transparent;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease-in-out;
+}
+
+.general-info-content h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.general-info-content hr {
+  width: 75%;
+  align-items: right;
+}
+
+.cv-input-form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.actual-form {
+  padding: 20px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+#basic-info-form {
+  border: none;
+}
+
+.actual-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.actual-form .grid-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.actual-form .inline-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.actual-form label {
+  margin-bottom: 5px;
+}
+
+.actual-form input,
+textarea {
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.close-button {
+  position: absolute;
+  color: #aaa;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  font-weight: normal;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.close-button:hover {
+  transform: rotate(135deg);
+  color: rgb(239, 0, 0);
+  text-decoration: none;
+}
+
+.add-button {
+  cursor: pointer;
+  background-color: #3378e8;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.add-button:hover {
+  transform: translateY(1px);
+  background-color: #055df3;
+}
+
+textarea {
+  max-width: 100%;
+  resize: vertical;
+}
+
+.footer {
+  margin: 10px;
+  margin-left: 30px;
+  padding: 5px;
+}
+.footer p{
+ font-size: 12px;
+}

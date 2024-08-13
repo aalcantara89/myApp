@@ -1,0 +1,9 @@
+
+.cv-input-container-content {
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.2s ease-in-out;
+}
